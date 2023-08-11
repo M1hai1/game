@@ -1,0 +1,140 @@
+.game {
+    width: inherit;
+    height: inherit;
+    background: #780CF7;
+    padding-top: 5vw;
+    position: relative;
+    opacity: 0;
+}
+.game_icon_container {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    z-index: 3;
+}
+.game_icon_container.center .game_icon:not(:last-child) {
+    margin-right: 16.25vw;
+}
+.content {
+    justify-content: space-between;
+}
+.center {
+    justify-content: center;
+}   
+.game_icon {
+    width: 15.1vw;
+    height: 17.4vw;
+    border-radius: 2vw;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vw;
+}
+.game_icon img {
+    width: 15.28vw;
+    height: auto;
+
+}
+.icon_title {
+    padding-top: 1.28vw;
+    font-family: 'VKText Medium';
+    font-size: 2vw;
+    color: #fff;
+}
+.icon {
+    position: absolute;
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oldSize {
+    opacity: 1;
+    width: 12vw;
+    height: 12vw;
+}
+.newSize {
+    animation: size 1s linear;
+}
+@keyframes size {
+    0% {
+        opacity: 1;
+        width: 12vw;
+        height: 12vw;
+    }
+    100% {
+        opacity: 0;
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+.container {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50vh;
+    left: 50vw;
+    top: calc(50vw - 18.5vw);
+    left: calc(50vw - 9vw);
+    width: 18.6vw;
+
+}
+.game_center {
+    width: 21.6vw;
+    height: 21.6vw;
+    background: url(../images/rhombus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5vw;
+    position: relative;
+    margin-bottom: 2.62vw;
+    z-index: 10;
+
+
+}
+
+.level25 {
+    background: url(../images/25.png);
+}
+.level50 {
+    background: url(../images/50.png);
+}
+.level100 {
+    background: url(../images/100.png);
+}
+.center_back {
+    top: -36%;
+    left: -53%;
+    position: absolute;
+    width: 184%;
+    height: 184%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.game_center-text {
+    position: absolute;
+    top: 4%;
+    left: 32%;
+    font-size: 12.4vw;
+    color: #fff;
+    font-family: 'VKDisplay DemiBold';
+    z-index: 99;
+}
+.center_title {
+    text-align: center;
+    font-family: 'VKDisplay Regular';
+    font-size: 5vw;
+    color: #fff;
+}
+.cat_front {
+    position: absolute;
+    bottom: 0;
+    left: -11vw;
+    width: 50vw;
+    height: 52vw;
+    z-index: 99;
+}

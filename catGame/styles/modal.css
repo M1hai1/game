@@ -1,0 +1,34 @@
+.modal {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+    background-color: rgb(34 34 34 / 0.1);
+    backdrop-filter: blur(62px);
+
+    opacity: 0;
+}
+
+.modal_title {
+    padding-top: 13.68vw;
+    margin-bottom: 3.19vw;
+    font-family: 'VKDisplay DemiBold';
+    font-size: 7vw;
+}
+.modal_subtitle {
+    font-size: 5.21vw;
+    font-family: 'VKDisplay Medium';  
+    margin-bottom: 6.74vw;
+}
+.modal_button {
+    width: 37vw;
+    height: 10.35vw;
+    color: #780CF7;
+    background-color: #fff;
+    font-family: 'VKDisplay DemiBold';
+    border-radius: 2.78vw;
+    font-size: 4.86vw;
+}

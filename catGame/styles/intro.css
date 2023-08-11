@@ -1,0 +1,126 @@
+.intro {
+    width: inherit;
+    height: inherit;
+    background: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 5vw;
+    position: relative;
+}   
+.intro_gradient {
+    z-index: 1;
+    height: 50vw;
+    width: inherit;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    background: linear-gradient(180deg, rgba(91,11,185,1) 0%, rgba(91,11,185,0) 100%)
+}
+.intro_traces_container {
+    transform: rotate(-12deg);
+    position: absolute;
+    left: 0;
+    top: 40vw;
+    width: 20vw;
+}
+.intro_trace {
+    opacity: 0;
+    width: 6.4vw;
+    height: 6.4vw;
+    animation: ani .5s forwards;
+
+}
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.intro_trace:nth-child(1) {
+    position: absolute;
+    top: 32vw;
+    right: 0vw;
+}
+.intro_trace:nth-child(2) {
+    position: absolute;
+    top: 22vw;
+    left: 1vw;
+    animation-delay: .5s;
+}
+.intro_trace:nth-child(3) {
+    position: absolute;
+    top: 12vw;
+    right: 3vw;
+    animation-delay: 1s;
+
+}
+
+.intro_trace:nth-child(4) {
+    position: absolute;
+    top: 2vw;
+    left: 0vw;
+    animation-delay: 1.5s;
+
+}
+.intro_trace:nth-child(5) {
+    position: absolute;
+    top: -10vw;
+    right: 6vw;
+    animation-delay: 2s;
+
+}
+.intro_trace:nth-child(6) {
+    position: absolute;
+    top: -21vw;
+    left: -1vw;
+    animation-delay: 2.5s;
+
+}
+.intro_cat {
+    width: 61vw;
+    position: absolute;
+    bottom: 0vw;
+    right: 0;
+}
+.intro_logo img {
+    width: 40.1vw;
+    height: auto;
+}
+.intro_logo {
+    margin-bottom: 5.9vw;
+    z-index: 3;
+}
+.intro_title {
+    font-family: 'VKDisplay Bold';
+    color: #fff;
+    font-size: 7vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    z-index: 3;
+}
+.intro_subtitle {
+    color: #fff;
+    font-family: 'VKDisplay Medium';
+    font-size: 5.2vw;
+    text-align: center;
+    margin-bottom: 9.4vw;
+    max-width: 62.4vw;
+        z-index: 3;
+}
+
+.intro_button {
+    font-family: 'VKDisplay DemiBold';
+    width: 33vw;
+    height: 10.5vw;
+    font-size: 5vw;
+    color: #780CF7;
+    background-color: #fff;
+    border-radius: 3vw;
+    z-index: 3;
+}

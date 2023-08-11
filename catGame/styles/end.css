@@ -1,0 +1,57 @@
+.end {
+    width: inherit;
+    height: inherit;
+
+    position: relative;
+    background: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.end_logo_container {
+    width: 40vw;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5.28vw;
+    margin-bottom: 10.83vw;
+}
+.end_logo {
+    width: 100%;
+    height: auto;
+}
+.text_first {
+    padding: 0 6.81vw;
+    text-align: center;
+    font-size: 6.94vw;
+    font-family: 'VKDisplay Medium';
+    color: #fff;
+}
+.text_second {
+    padding: 0 6.81vw;
+    font-family: 'VKDisplay Medium';
+    font-size: 5.9vw;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 7.92vw;
+}
+.end_second {
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+.end_img {
+    width: 20.63vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.end_button {
+    width: 37vw;
+    height: 10.35vw;
+    color: #780CF7;
+    background-color: #fff;
+    font-family: 'VKDisplay DemiBold';
+    border-radius: 2.78vw;
+    font-size: 4.86vw;
+}

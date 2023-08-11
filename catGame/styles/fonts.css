@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'VKDisplay Regular';
+    src: url(../fonts/VKDisplay/VK\ Sans\ Display\ Regular.ttf);
+}
+@font-face {
+    font-family: 'VKDisplay DemiBold';
+    src: url(../fonts/VKDisplay/VK\ Sans\ Display\ DemiBold.ttf);
+}
+@font-face {
+    font-family: 'VKDisplay Light';
+    src: url(../fonts/VKDisplay/VK\ Sans\ Display\ Light.ttf);
+}
+@font-face {
+    font-family: 'VKDisplay Medium';
+    src: url(../fonts/VKDisplay/VK\ Sans\ Display\ Medium.ttf);
+}
+@font-face {
+    font-family: 'VKDisplay Bold';
+    src: url(../fonts/VKDisplay/VK\ Sans\ Display\ Bold.ttf);
+}
+
+/* TEXT */
+
+@font-face {
+    font-family: 'VKText Regular';
+    src: url(../fonts/VKText/VK\ Sans\ Text\ Regular.ttf);
+}
+@font-face {
+    font-family: 'VKText Light';
+    src: url(../fonts/VKText/VK\ Sans\ Text\ Light.ttf);
+}
+@font-face {
+    font-family: 'VKText Medium';
+    src: url(../fonts/VKText/VK\ Sans\ Text\ Medium.ttf);
+}
+@font-face {
+    font-family: 'VKText Bold';
+    src: url(../fonts/VKText/VK\ Sans\ Text\ Bold.ttf);
+}
+@font-face {
+    font-family: 'VKText DemiBold';
+    src: url(../fonts/VKText/VK\ Sans\ Text\ DemiBold.ttf);
+}
